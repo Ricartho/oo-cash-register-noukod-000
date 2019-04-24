@@ -19,6 +19,7 @@ class CashRegister
       puts "There is no discount to apply."
     else
       @total =(@total - @total*(@discount/100)).to_i
+      
     end 
   end 
 end
