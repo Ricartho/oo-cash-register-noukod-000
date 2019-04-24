@@ -11,8 +11,7 @@ class CashRegister
     @title = title
     @price = price
     @items << title
-    self.total += @price if quantity == 0 
-    
+    self.total += @price * quantity 
   end
   
   def apply_discount
